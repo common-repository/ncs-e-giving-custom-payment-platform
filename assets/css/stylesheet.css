@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+.content-area {
+    text-align: center;
+}
+
+.CPMainHeader{
+    padding-bottom:50px;
+}
+
+
+
+
+/* CP CART PAGE CSS START */
+/*.payment-date-selector img { margin-left: 10px;}
+.payment-date-selector input { width: 100px;}*/
+.FundName{margin-bottom:1%; }
+.red{color:red;}
+.Buttons{margin-top:10px;}
+.Close{cursor:pointer;}
+
+/* CP CART PAGE CSS END */
+
+
+/* CP CONFIRM OFFRING PAGE CSS START */
+
+
+/* CP CONFIRM OFFRING PAGE CSS END */
+
+
+/* CP CREATE ACCOUNT PAGE CSS START */
+
+
+/* CP CREATE ACCOUNT PAGE CSS END */
+
+
+/* CP FUNDS LISTING PAGE CSS START */
+
+
+/* CP FUNDS LISTING PAGE CSS END */
+
+
+/* CP LOGIN PAGE CSS START */
+
+
+/* CP LOGIN PAGE CSS END */
+
+
+/* CP PAYMENT RECEIPT PAGE CSS START */
+
+
+/* CP PAYMENT RECEIPT PAGE CSS END */
+
+
+/* CP PROCESS PAYMENT PAGE CSS START */
+.MainConatiner{width:100%;}
+.PaymentModeSelector{margin-bottom:10px;}
+.PaymentFormContainer{float:left;width:70%;}
+.CreditCardImageContainer{float:left;width:30%}
+.CheckImageContainer{float:left;width:30%}
+.clear{clear:both;}
+/*.ui-datepicker-trigger { margin:-3px 10px;}
+.ui-datepicker-calendar {
+    display: none;
+}*/
+.payment-form-box{ margin-bottom:10px; float: left; width: 100%;}
+.payment-form-box input{ width: 90.5%;}
+.payment-form-box.first input{ width:26%; }
+.payment-form-box.last input, .payment-form-box.last select{ width:28.9%; }
+.bank-nm{ float: left; margin-right:2%; width:40%;}
+.bank-nm input{ width:95%;}
+.ac-no{ float: left; width:58%;}
+.ac-no input{ width: 30%; float: left; margin-right: 5%;}
+.ac-holder-box{ float:left; margin-right:2%; width:40%;}
+.ac-holder-box input{ width:95%;}
+.ac-holder-select{ float:left; padding-top:10px;}
+.ac-holder-select input{ float:left; width:auto; margin-top:0;}
+.ac-holder-select label{ float:left; margin:0 10px;}
+.payment-receipt-funds{width:100%;height: 250px; overflow-x: hidden; overflow-y:auto;}
+/* CP PROCESS PAYMENT PAGE CSS END */
+
+
+.content-area.side-content-area {
+    text-align:inherit;
+}
+
+@media print {
+   #BckBtn,.email-info,.print-receipt {display: none;}
+   .payment-receipt-funds{ height:auto;}
+   .receipt-date{ margin-bottom:15px;}
+   .to-class{margin-left:5px;}
+}
